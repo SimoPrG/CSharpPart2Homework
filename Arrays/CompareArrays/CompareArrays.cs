@@ -44,10 +44,12 @@ class CompareArrays
                 if (firstArray[i] != secondArray[i])
                 {
                     Console.WriteLine("The arrays are different.");
+                    Console.ReadKey();
                     return;
                 }
             }
             Console.WriteLine("The arrays are equal.");
         }
+        Console.ReadKey();
     }
 }
