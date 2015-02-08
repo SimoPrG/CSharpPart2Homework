@@ -14,7 +14,7 @@ class SumInArray
 {
     static void Main()
     {
-        Console.Title = "Frequent Number";
+        Console.Title = "Find Sum In Array";
 
         // Tell console to get its input from a file, not from the keyboard
         //StreamReader file = new StreamReader(@".\input.txt");
