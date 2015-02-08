@@ -17,8 +17,8 @@ class SumInArray
         Console.Title = "Find Sum In Array";
 
         // Tell console to get its input from a file, not from the keyboard
-        //StreamReader file = new StreamReader(@".\input.txt");
-        //Console.SetIn(file);
+        //StreamReader file = new StreamReader(@"..\..\input.txt");  //uncoment this two lines to read from file
+        //Console.SetIn(file);                                       //uncoment this two lines to read from file
 
         //reading the array
         Console.WriteLine("Please, enter the elements of the array separated by space or comma!");
@@ -49,7 +49,7 @@ class SumInArray
         }
 
         // Reset console input to the standard (keyboard) input so we can wait for keyboard enter
-        //Console.SetIn(new StreamReader(Console.OpenStandardInput()));
+        Console.SetIn(new StreamReader(Console.OpenStandardInput()));
 
         // Wait for keyboard enter
         Console.ReadKey();
