@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. FrequentNumber", "Frequ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. SumInArray", "SumInArray\10. SumInArray.csproj", "{894411ED-E3D0-4832-8BEC-8217734921A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{67BE13D2-86A0-49AB-8176-D9EA738A7FD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. BinarySearch", "BinarySearch\11. BinarySearch.csproj", "{67BE13D2-86A0-49AB-8176-D9EA738A7FD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
