@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. QuickSort", "QuickSort\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. PrimeNumbers", "PrimeNumbers\15. PrimeNumbers.csproj", "{76999F90-7DBE-41F9-8D03-33AAE86DC558}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. SubsetWithSumS", "SubsetWithSumS\16. SubsetWithSumS.csproj", "{2C179C45-5EC7-4BB2-92EF-6379CB4848C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{76999F90-7DBE-41F9-8D03-33AAE86DC558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76999F90-7DBE-41F9-8D03-33AAE86DC558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76999F90-7DBE-41F9-8D03-33AAE86DC558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C179C45-5EC7-4BB2-92EF-6379CB4848C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C179C45-5EC7-4BB2-92EF-6379CB4848C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C179C45-5EC7-4BB2-92EF-6379CB4848C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C179C45-5EC7-4BB2-92EF-6379CB4848C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
