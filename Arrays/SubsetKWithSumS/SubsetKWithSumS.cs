@@ -14,8 +14,8 @@ class SubsetKWithSumS
         Console.Title = "Subset K with sum S";
 
         // Tell console to get its input from a file, not from the keyboard
-        StreamReader file = new StreamReader(@"..\..\input.txt");  //uncoment this two lines to read from file
-        Console.SetIn(file);                                       //uncoment this two lines to read from file
+        //StreamReader file = new StreamReader(@"..\..\input.txt");  //uncoment this two lines to read from file
+        //Console.SetIn(file);                                       //uncoment this two lines to read from file
 
         //reading the array
         Console.WriteLine("Please, enter the elements of the array separated by space or comma!");
