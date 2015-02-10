@@ -23,24 +23,36 @@ class SubsetKWithSumS
         string[] userInput = Console.ReadLine().Split(splitSeparators, StringSplitOptions.RemoveEmptyEntries);
         int[] elements = Array.ConvertAll(userInput, int.Parse);
 
+        Console.Write("Please, enter S: ");
         int s = int.Parse(Console.ReadLine());
+        Console.Write("Please, enter K: ");
+        int k = int.Parse(Console.ReadLine());
 
+        bool found = false;
         for (int i = 1; i < Math.Pow(2, elements.Length); i++)
         {
             int sum = 0;
+            int count = 0;
             string print = null;
             for (int j = 0; j < elements.Length; j++)
             {
                 if ((i & (1 << j)) != 0)
                 {
+                    count++;
                     sum += elements[(int)Math.Log(1 << j, 2)];
                     print += elements[(int)Math.Log(1 << j, 2)] + " ";
                 }
             }
-            if (sum == s)
+            if (sum == s && count == k)
             {
+                found = true;
                 Console.WriteLine(print);
             }
+        }
+
+        if (!found)
+        {
+            Console.WriteLine("There is no such a subset in the array.");
         }
 
         // Reset console input to the standard (keyboard) input so we can wait for keyboard enter

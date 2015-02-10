@@ -41,6 +41,7 @@ class SubsetWithSumS
         string[] userInput = Console.ReadLine().Split(splitSeparators, StringSplitOptions.RemoveEmptyEntries);
         int[] elements = Array.ConvertAll(userInput, int.Parse);
 
+        Console.Write("Please, enter S: ");
         int s = int.Parse(Console.ReadLine());
 
         for (int i = 1; i < Math.Pow(2, elements.Length); i++)
