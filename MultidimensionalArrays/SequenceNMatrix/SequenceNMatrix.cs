@@ -23,9 +23,11 @@ class SequenceNMatrix
 {
     static void Main()
     {
+        Console.Title = "Sequence n matrix";
+
         // Tell console to get its input from a file, not from the keyboard
-        StreamReader file = new StreamReader(@"..\..\input.txt"); //uncoment this two lines to read from file
-        Console.SetIn(file);                                      //uncoment this two lines to read from file
+        //StreamReader file = new StreamReader(@"..\..\input.txt"); //uncoment this two lines to read from file
+        //Console.SetIn(file);                                      //uncoment this two lines to read from file
         //reading the matrix
         Console.Write("Please, enter the number of rows: ");
         int N = int.Parse(Console.ReadLine());
