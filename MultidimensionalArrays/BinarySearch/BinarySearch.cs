@@ -11,7 +11,7 @@ class BinarySearch
 {
     static void Main()
     {
-        Console.Title = "Sequence n matrix";
+        Console.Title = "Binary search";
 
         // Tell console to get its input from a file, not from the keyboard
         StreamReader file = new StreamReader(@"..\..\input.txt"); //uncoment this two lines to read from file
