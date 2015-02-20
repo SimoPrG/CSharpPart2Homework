@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. AppearanceCount", "Appe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. LargerThanNeighbours", "LargerThanNeighbours\05. LargerThanNeighbours.csproj", "{03115BF8-9570-4A8E-93EA-6E5C0870CA85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. FirstLargerThanNeighbours", "FirstLargerThanNeighbours\06. FirstLargerThanNeighbours.csproj", "{1963CABC-969A-42F3-8550-3009337A36B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{03115BF8-9570-4A8E-93EA-6E5C0870CA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03115BF8-9570-4A8E-93EA-6E5C0870CA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03115BF8-9570-4A8E-93EA-6E5C0870CA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1963CABC-969A-42F3-8550-3009337A36B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1963CABC-969A-42F3-8550-3009337A36B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1963CABC-969A-42F3-8550-3009337A36B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1963CABC-969A-42F3-8550-3009337A36B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

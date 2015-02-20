@@ -1,13 +1,13 @@
-﻿/*Problem 5. Larger than neighbours
+﻿/*Problem 6. First larger than neighbours
 
-    Write a method that checks if the element at given position in given array of integers is larger than its two neighbours
-    (when such exist).
+    Write a method that returns the index of the first element in array that is larger than its neighbours, or -1,
+    if there’s no such element.
+    Use the method from the previous exercise.
 */
-
 using System;
 using System.Linq;
 
-class LargerThanNeighbours
+class FirstLargerThanNeighbours
 {
     static void Main()
     {
@@ -15,13 +15,23 @@ class LargerThanNeighbours
         int[] elements = Console.ReadLine()
             .Split(new string[] { " ", ", ", "," }, StringSplitOptions.RemoveEmptyEntries)
             .Select(int.Parse).ToArray();
-        Console.Write("Please, enter the index of the number to check if it is larger than its neighbours: ");
-        int index = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("The number at index {0} is larger than its neighbours: {1}",
-            index, IsLargerThanNeighbours(index, elements));
+        Console.WriteLine("The index of the first larger neighbour is {0}.", GetFirstNeighbour(elements));
 
         Console.ReadKey();
+    }
+
+    static int GetFirstNeighbour(int[] array)
+    {
+        int index = -1;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (IsLargerThanNeighbours(i, array))
+            {
+                return i;
+            }
+        }
+        return index;
     }
 
     static bool IsLargerThanNeighbours(int index, int[] array)
