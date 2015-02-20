@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. SubstractingPolynomials
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. SolveTasks", "SolveTasks\13. SolveTasks.csproj", "{CCCF2395-50A7-4B8C-8EFA-E8D245605BB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. IntegerCalculations", "IntegerCalculations\14. IntegerCalculations.csproj", "{266DBD41-2FDB-449B-B67D-F60B33A1E704}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{CCCF2395-50A7-4B8C-8EFA-E8D245605BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCF2395-50A7-4B8C-8EFA-E8D245605BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCF2395-50A7-4B8C-8EFA-E8D245605BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266DBD41-2FDB-449B-B67D-F60B33A1E704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266DBD41-2FDB-449B-B67D-F60B33A1E704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266DBD41-2FDB-449B-B67D-F60B33A1E704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266DBD41-2FDB-449B-B67D-F60B33A1E704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
