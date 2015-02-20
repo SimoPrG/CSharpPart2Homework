@@ -17,7 +17,6 @@ class FirstLargerThanNeighbours
             .Select(int.Parse).ToArray();
 
         Console.WriteLine("The index of the first larger neighbour is {0}.", GetFirstNeighbour(elements));
-
         Console.ReadKey();
     }
 
