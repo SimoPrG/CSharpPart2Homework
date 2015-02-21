@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. DecimalToBinary", "DecimalToBinary\01. DecimalToBinary.csproj", "{990A0DB5-7830-4CBE-B49A-D2B3AFBF6E3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. BinaryToDecimal", "BinaryToDecimal\02. BinaryToDecimal.csproj", "{AD847C33-FAEB-4C86-A204-DD3A2F85D08A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{990A0DB5-7830-4CBE-B49A-D2B3AFBF6E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990A0DB5-7830-4CBE-B49A-D2B3AFBF6E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990A0DB5-7830-4CBE-B49A-D2B3AFBF6E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD847C33-FAEB-4C86-A204-DD3A2F85D08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD847C33-FAEB-4C86-A204-DD3A2F85D08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD847C33-FAEB-4C86-A204-DD3A2F85D08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD847C33-FAEB-4C86-A204-DD3A2F85D08A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
