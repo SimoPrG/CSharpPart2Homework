@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. SolveTasks", "SolveTask
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. IntegerCalculations", "IntegerCalculations\14. IntegerCalculations.csproj", "{266DBD41-2FDB-449B-B67D-F60B33A1E704}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. NumberCalculations", "NumberCalculations\15. NumberCalculations.csproj", "{722EBCCF-EECA-47CE-B3F4-EC445D884356}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{266DBD41-2FDB-449B-B67D-F60B33A1E704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{266DBD41-2FDB-449B-B67D-F60B33A1E704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{266DBD41-2FDB-449B-B67D-F60B33A1E704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722EBCCF-EECA-47CE-B3F4-EC445D884356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722EBCCF-EECA-47CE-B3F4-EC445D884356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722EBCCF-EECA-47CE-B3F4-EC445D884356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722EBCCF-EECA-47CE-B3F4-EC445D884356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
