@@ -43,7 +43,7 @@ class Workdays
             if (currentDate.DayOfWeek != DayOfWeek.Saturday &&
                 currentDate.DayOfWeek != DayOfWeek.Sunday)
             {
-                int index = Array.IndexOf(holiday, currentDate);
+                int index = Array.IndexOf(holiday, currentDate); // if the index is less than zero, currentDate is not in the array
                 if (index < 0)
                 {
                     workdays++;
