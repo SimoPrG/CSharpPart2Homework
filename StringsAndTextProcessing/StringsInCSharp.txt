@@ -1,0 +1,45 @@
+Problem 1. Strings in C#.
+
+    Describe the strings in C#.
+    What is typical for the string data type?
+    Describe the most important methods of the String class.
+
+A string is an object of type String whose value is text. Internally, the text is stored as a sequential read-only
+collection of Char objects. There is no null-terminating character at the end of a C# string; therefore a C# string
+can contain any number of embedded null characters ('\0'). The Length property of a string represents the number of
+Char objects it contains, not the number of Unicode characters.
+
+The string data type is a refference type. The variable in the stack memory holds the address where the string begins
+in the heap memory. The strings are read-only, which means that we cannot change different symbols in the string. If
+we want to change the string a new portion from the memory is reserved with the new string and the variable starts to
+point to the new location. The Garbidge Collector takes care to clean up the old string if it is not used anymore.
+This is why the work with strings is considered slow and it should be avoided. If we have to perform numerable operations
+over strings, it is prefferable to use StringBuilder.
+
+Compare - Compares two specified String objects and returns an integer that indicates their relative position
+in the sort order. It also can ignore upper/lower cases if needed.
+Contains - Returns a value indicating whether a specified substring occurs within this string.
+Format - Replaces one or more format items in a specified string with a string representation.
+IndexOf - Reports the zero-based index of the first occurrence.
+Insert - Returns a new string in which a specified string is inserted at a specified index position in this instance.
+Join - Concatenates the members of a constructed IEnumerable<T> collection of type String, using the specified separator
+between each member.
+LastIndexOf - Reports the zero-based index position of the last occurrence.
+PadLeft - Returns a new string that right-aligns the characters in this instance by padding them on the left with a
+specified Unicode character, for a specified total length.
+PadRight - Returns a new string that left-aligns the characters in this string by padding them with spaces on the right,
+for a specified total length.
+Remove - Returns a new string in which all the characters in the current instance, beginning at a specified position
+and continuing through the last position, have been deleted.
+Replace - Returns a new string in which all occurrences of a specified Unicode character in this instance are replaced
+with another specified Unicode character.
+Split - Returns a string array that contains the substrings in this instance that are delimited by elements of a specified
+Unicode character array.
+Substring - Retrieves a substring from this instance. The substring starts at a specified character position and has a
+specified length.
+ToCharArray - Copies the characters in this instance to a Unicode character array.
+ToLower - Returns a copy of this string converted to lowercase.
+ToUpper - Returns a copy of this string converted to uppercase.
+Trim - Removes all leading and trailing occurrences of a set of characters specified in an array from the current String object.
+TrimStart - Removes all leading occurrences of a set of characters specified in an array from the current String object.
+TrimEnd - Removes all trailing occurrences of a set of characters specified in an array from the current String object.
