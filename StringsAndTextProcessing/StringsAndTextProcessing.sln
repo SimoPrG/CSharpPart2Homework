@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. ParseTags", "ParseTags\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. StringLength", "StringLength\06. StringLength.csproj", "{77B9172D-5EA0-4962-AAA1-CFEE6AE10746}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. EncodeDecode", "EncodeDecode\07. EncodeDecode.csproj", "{555600B1-31F3-4B75-B1AC-C4DBCDB19250}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{77B9172D-5EA0-4962-AAA1-CFEE6AE10746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B9172D-5EA0-4962-AAA1-CFEE6AE10746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B9172D-5EA0-4962-AAA1-CFEE6AE10746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555600B1-31F3-4B75-B1AC-C4DBCDB19250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555600B1-31F3-4B75-B1AC-C4DBCDB19250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555600B1-31F3-4B75-B1AC-C4DBCDB19250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555600B1-31F3-4B75-B1AC-C4DBCDB19250}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
