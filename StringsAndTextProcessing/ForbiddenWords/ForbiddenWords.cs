@@ -22,7 +22,7 @@ class ForbiddenWords
 
         string regex = @"(?<forbidden>\b(PHP|CLR|Microsoft)\b)";
 
-        Console.WriteLine(Regex.Replace(text, regex, m=> new string('*', m.Length)));
+        Console.WriteLine(Regex.Replace(text, regex, m=> new string('*', m.Groups["forbidden"].Length)));
 
         Console.ReadKey();
     }

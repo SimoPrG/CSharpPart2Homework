@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. ExtractSentences", "Ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ForbiddenWords", "ForbiddenWords\09. ForbiddenWords.csproj", "{FDBDFF5C-3DAF-4446-A623-BFFFF22646E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. UnicodeCharacters", "UnicodeCharacters\10. UnicodeCharacters.csproj", "{56098A6C-58D0-4A14-B8CC-76CCDF674B62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{FDBDFF5C-3DAF-4446-A623-BFFFF22646E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDBDFF5C-3DAF-4446-A623-BFFFF22646E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDBDFF5C-3DAF-4446-A623-BFFFF22646E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56098A6C-58D0-4A14-B8CC-76CCDF674B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56098A6C-58D0-4A14-B8CC-76CCDF674B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56098A6C-58D0-4A14-B8CC-76CCDF674B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56098A6C-58D0-4A14-B8CC-76CCDF674B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
