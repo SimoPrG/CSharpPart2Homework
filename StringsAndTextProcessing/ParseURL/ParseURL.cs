@@ -12,7 +12,7 @@ http://telerikacademy.com/Courses/Courses/Details/212 	[protocol] = http
 
 using System;
 
-class Program
+class ParseURL
 {
     static void Main()
     {
