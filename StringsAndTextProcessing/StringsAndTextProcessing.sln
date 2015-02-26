@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ForbiddenWords", "Forbi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. UnicodeCharacters", "UnicodeCharacters\10. UnicodeCharacters.csproj", "{56098A6C-58D0-4A14-B8CC-76CCDF674B62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. FormatNumber", "FormatNumber\11. FormatNumber.csproj", "{1E116B64-14B3-4C9A-B3A4-DCC268C66D5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{56098A6C-58D0-4A14-B8CC-76CCDF674B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56098A6C-58D0-4A14-B8CC-76CCDF674B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56098A6C-58D0-4A14-B8CC-76CCDF674B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E116B64-14B3-4C9A-B3A4-DCC268C66D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E116B64-14B3-4C9A-B3A4-DCC268C66D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E116B64-14B3-4C9A-B3A4-DCC268C66D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E116B64-14B3-4C9A-B3A4-DCC268C66D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
