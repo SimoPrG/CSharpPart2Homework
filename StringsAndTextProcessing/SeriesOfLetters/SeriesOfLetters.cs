@@ -18,15 +18,10 @@ class SeriesOfLetters
         Console.WriteLine("Please, enter a text with many repetitive letters!");
         string text = Console.ReadLine();
 
-        string regex = @"(.)\1+|.|\s"; //this regex captures all repetitive chars, after that all the single chars left and finally the line fold
+        string regex = @"(?<group>.)\1+|(?<group>.)|(?<group>\s)"; //this regex captures all repetitive chars, after that all the single chars left and finally the line fold
 
-        StringBuilder result = new StringBuilder();
+        Console.WriteLine(Regex.Replace(text, regex, m => m.Groups["group"].Value));
 
-        foreach (Match match in Regex.Matches(text, regex))
-        {
-            result.Append(match.Value[0]);
-        }
-
-        Console.WriteLine(result);
+        Console.ReadKey();
     }
 }
