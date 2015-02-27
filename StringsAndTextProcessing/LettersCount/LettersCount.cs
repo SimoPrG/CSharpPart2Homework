@@ -15,7 +15,7 @@ class LettersCount
 
         string regex = @"[^a-z]+"; //This regex, combined with IgnoreCase, finds all symbols which are not letters.
 
-        string textLettersOnly = Regex.Replace(text, regex, String.Empty, RegexOptions.IgnoreCase);
+        string textLettersOnly = Regex.Replace(text, regex, String.Empty, RegexOptions.IgnoreCase); // we replace the nonletters with empty string
 
         var smallLetters = new int[26];
         var bigLetters = new int[26];
