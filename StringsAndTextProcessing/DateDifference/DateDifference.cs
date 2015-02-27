@@ -18,7 +18,6 @@ class DateDifference
     static void Main()
     {
         Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("bg-BG");
-        CultureInfo bg = new CultureInfo("bg-BG");
 
         Console.Write("Enter the first date (dd.MM.YYYY): ");
         DateTime firstDate = DateTime.Parse(Console.ReadLine());
