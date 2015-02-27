@@ -16,7 +16,7 @@ class ReversedSentence
 {
     static void Main()
     {
-        Console.WriteLine("Please, enter a sentence!");
+        Console.WriteLine("Please, enter a correct sentence!");
         string sentence = Console.ReadLine(); // C# is not C++, not PHP and not Delphi!
 
         string reversed = ReverseSentence(sentence);
