@@ -1,0 +1,1 @@
+﻿Exception is a notification that something interrupts the normal program execution. Exceptions provide a programming paradigm for detecting and reacting to unexpected events. When an exception arises, the state of the program is saved, the normal flow is interrupted and the control is passed to an exception handler (if such exists in the current context).
