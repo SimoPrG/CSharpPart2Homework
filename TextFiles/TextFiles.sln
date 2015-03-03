@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. OddLines", "OddLines\01. OddLines.csproj", "{61D93BE5-48F0-4D1D-AC65-BFEAE2C01CA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. TextFilesConcatenation", "TextFilesConcatenation\02. TextFilesConcatenation.csproj", "{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{61D93BE5-48F0-4D1D-AC65-BFEAE2C01CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61D93BE5-48F0-4D1D-AC65-BFEAE2C01CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61D93BE5-48F0-4D1D-AC65-BFEAE2C01CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
