@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. OddLinesDelition", "Odd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. XMLTextExtraction", "XMLTextExtraction\10. XMLTextExtraction.csproj", "{4CDC1ADC-B59A-46C1-BFAA-0446680EEDB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrefixTest", "PrefixTest\PrefixTest.csproj", "{C3D47986-C8FB-4152-90E8-840DF85D4328}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. PrefixTest", "PrefixTest\11. PrefixTest.csproj", "{C3D47986-C8FB-4152-90E8-840DF85D4328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. WordsRemover", "WordsRemover\12. WordsRemover.csproj", "{911F0D94-F606-4164-B804-6832A9E4D491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{C3D47986-C8FB-4152-90E8-840DF85D4328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3D47986-C8FB-4152-90E8-840DF85D4328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3D47986-C8FB-4152-90E8-840DF85D4328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911F0D94-F606-4164-B804-6832A9E4D491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911F0D94-F606-4164-B804-6832A9E4D491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911F0D94-F606-4164-B804-6832A9E4D491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911F0D94-F606-4164-B804-6832A9E4D491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
