@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. WholeWordReplacement", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. OddLinesDelition", "OddLinesDelition\09. OddLinesDelition.csproj", "{FDC808A0-74A3-4756-A7AB-95BA8F28502B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. XMLTextExtraction", "XMLTextExtraction\10. XMLTextExtraction.csproj", "{4CDC1ADC-B59A-46C1-BFAA-0446680EEDB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{FDC808A0-74A3-4756-A7AB-95BA8F28502B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDC808A0-74A3-4756-A7AB-95BA8F28502B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDC808A0-74A3-4756-A7AB-95BA8F28502B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDC1ADC-B59A-46C1-BFAA-0446680EEDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDC1ADC-B59A-46C1-BFAA-0446680EEDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDC1ADC-B59A-46C1-BFAA-0446680EEDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDC1ADC-B59A-46C1-BFAA-0446680EEDB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
