@@ -1,0 +1,8 @@
+﻿same line
+different string
+same line
+different string
+same line
+different string
+same line
+different string

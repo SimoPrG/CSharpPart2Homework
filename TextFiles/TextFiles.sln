@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. OddLines", "OddLines\01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. TextFilesConcatenation", "TextFilesConcatenation\02. TextFilesConcatenation.csproj", "{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LineNumbers", "LineNumbers\03. LineNumbers.csproj", "{4E1DD284-8109-4409-8905-3FC842B8810A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFilesComparison", "TextFilesComparison\TextFilesComparison.csproj", "{5C4479A4-73B5-47F4-B946-0A0683196288}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A1D25F-CD41-4051-8EC2-A7F0E3DC363B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1DD284-8109-4409-8905-3FC842B8810A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1DD284-8109-4409-8905-3FC842B8810A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1DD284-8109-4409-8905-3FC842B8810A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1DD284-8109-4409-8905-3FC842B8810A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4479A4-73B5-47F4-B946-0A0683196288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4479A4-73B5-47F4-B946-0A0683196288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4479A4-73B5-47F4-B946-0A0683196288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4479A4-73B5-47F4-B946-0A0683196288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
