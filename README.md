@@ -1,6 +1,6 @@
 # CSharpPart2Homework
 
-In this repository I keep all the homework from the C# part 2 training @ Telerik Academy. The training has 8 courses:
+In this repository I keep all the homework from the C# part 2 course @ Telerik Academy. The course has 8 lessons:
 
 1. Arrays [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/01.%20Arrays/README.md)
 2. Multidimensional Arrays [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/02.%20Multidimensional%20Arrays/README.md)
