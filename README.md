@@ -2,13 +2,15 @@
 
 In this repository I keep all the homework from the C# part 2 course @ Telerik Academy. The course has 8 lessons:
 
-1. Data types and Variables [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/03.%20Data%20types%20and%20Variables/README.md)
-2. Operators and Expressions [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/04.%20Operators%20and%20Expressions/README.md)
-3. Conditional statements [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/05.%20Conditional%20Statements/README.md)
-4. Loops [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/06.%20Loops/README.md)
-5. Arrays [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/07.%20Arrays/README.md)
-6. Functions [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/08.%20Functions/README.md)
-7. Using Objects [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/09.%20Using%20Objects/README.md)
-8. Strings [Homework](https://github.com/TelerikAcademy/JavaScript-Fundamentals/blob/master/10.%20Strings/README.md)
+1. Arrays [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/01.%20Arrays/README.md)
+2. Multidimensional Arrays [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/02.%20Multidimensional%20Arrays/README.md)
+3. Methods [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/03.%20Methods/README.md)
+4. Numeral Systems [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/04.%20Numeral%20Systems/README.md)
+5. Using Classes and Objects [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/05.%20Using%20Classes%20and%20Objects/README.md)
+6. Strings and Text Processing [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/06.%20Strings%20and%20Text%20Processing/README.md)
+7. Exception Handling [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/07.%20Exception%20Handling/README.md)
+8. Text Files [Homework](https://github.com/TelerikAcademy/CSharp-Part-2/blob/master/08.%20Text%20Files/README.md)
 
 You can find the lectures @ [Youtube](https://www.youtube.com/channel/UCLC-vbm7OWvpbqzXaoAMGGw).
+
+There is also a book you can read. [Fundamentals of Computer Programming with C#](http://www.introprogramming.info/english-intro-csharp-book/read-online/)
